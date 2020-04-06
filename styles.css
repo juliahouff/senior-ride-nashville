@@ -1,0 +1,67 @@
+/* CSS Document */
+
+header {
+	background-color:  rgb(210, 152, 233);
+	color: rgb(51, 10, 17);
+}
+
+body {
+	background-color: rgb(252, 188, 217);
+	color: rgb(51, 10, 17);
+}
+footer {
+	background-color: rgb(210, 152, 233);
+	color: rgb(51, 10, 17);
+}
+
+footer label {
+	color: rgb(185, 7, 255);
+}
+
+#full-width-image {
+	min-height: 550px;
+    background-size: cover;
+}
+
+#full-width-image .grid-x {
+	min-height: 550px;
+}
+
+nav a {
+	padding: 30px 0;
+	display: block;
+}
+
+.home-page #full-width-image {
+	background-image: url("../images/woman-man.jpg");
+}
+
+.get-a-ride #full-width-image {
+	
+}
+
+@media only screen and (max-width: 300px) {
+	
+	#full-width-image {
+		min-height: 200px;
+    	background-size: cover;
+	}
+
+	#full-width-image .grid-x {
+		min-height: 200px;
+	}
+	
+}
+
+@media only screen and (min-width: 301px) and (max-width: 640px) {
+	
+	#full-width-image {
+		min-height: 330px;
+	}
+
+	#full-width-image .grid-x {
+		min-height: 330px;
+	}
+	
+}
+
